@@ -1,0 +1,124 @@
+[12-Apr-2017 18:21:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[12-Apr-2017 21:32:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[12-Apr-2017 21:32:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[12-Apr-2017 21:33:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[14-Apr-2017 00:28:24 UTC] PHP Warning:  include(employeeheader.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/employeelist.php on line 1
+[14-Apr-2017 00:28:24 UTC] PHP Warning:  include(): Failed opening 'employeeheader.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/employeelist.php on line 1
+[18-Apr-2017 19:36:50 UTC] PHP Warning:  include(employeeheader.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/employeeindex.php on line 4
+[18-Apr-2017 19:36:50 UTC] PHP Warning:  include(): Failed opening 'employeeheader.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/employeeindex.php on line 4
+[18-Apr-2017 19:55:32 UTC] PHP Warning:  include(autoload.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 10
+[18-Apr-2017 19:55:32 UTC] PHP Warning:  include(): Failed opening 'autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 10
+[18-Apr-2017 19:55:32 UTC] PHP Warning:  include(sshTest.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 11
+[18-Apr-2017 19:55:32 UTC] PHP Warning:  include(): Failed opening 'sshTest.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 11
+[18-Apr-2017 19:55:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sshConnect() in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 23
+[18-Apr-2017 19:56:41 UTC] PHP Warning:  include(autoload.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 10
+[18-Apr-2017 19:56:41 UTC] PHP Warning:  include(): Failed opening 'autoload.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 10
+[18-Apr-2017 19:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sshConnect() in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 23
+[18-Apr-2017 19:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sshConnect() in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/admincreateemployeeconfirm.php on line 22
+[18-Apr-2017 19:59:15 UTC] PHP Warning:  Cookie names must not be empty in /home/torresa31/public_html/sshTest.php on line 13
+[18-Apr-2017 21:44:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:24) in /home/torresa31/public_html/sshTest.php on line 13
+[18-Apr-2017 21:45:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[18-Apr-2017 21:45:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:24) in /home/torresa31/public_html/sshTest.php on line 13
+[18-Apr-2017 21:52:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:23) in /home/torresa31/public_html/sshTest.php on line 11
+[18-Apr-2017 22:02:40 UTC] PHP Warning:  Cookie names must not be empty in /home/torresa31/public_html/sshTest.php on line 11
+[18-Apr-2017 22:12:07 UTC] PHP Warning:  Cookie names must not be empty in /home/torresa31/public_html/sshTest.php on line 11
+[18-Apr-2017 22:22:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/torresa31/public_html/admin/employeelist.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/employeelist.php on line 11
+[18-Apr-2017 22:23:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/torresa31/public_html/admin/employeelist.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/employeelist.php on line 12
+[19-Apr-2017 00:30:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/torresa31/public_html/admin/adminviewqueue.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/adminviewqueue.php on line 2
+[19-Apr-2017 01:04:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::fetchAll() in /home/torresa31/public_html/admin/employeelist.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/employeelist.php on line 12
+[19-Apr-2017 01:59:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/delete.php on line 8
+[19-Apr-2017 02:04:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/delete.php on line 8
+[19-Apr-2017 02:05:46 UTC] PHP Parse error:  syntax error, unexpected '%' in /home/torresa31/public_html/admin/delete.php on line 8
+[19-Apr-2017 02:13:28 UTC] PHP Warning:  include(adminheader): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/delete.php on line 3
+[19-Apr-2017 02:13:28 UTC] PHP Warning:  include(): Failed opening 'adminheader' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/delete.php on line 3
+[19-Apr-2017 19:05:07 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/torresa31/public_html/admin/queuelist.php on line 98
+[19-Apr-2017 19:05:18 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/torresa31/public_html/admin/queuelist.php on line 98
+[19-Apr-2017 19:05:39 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/torresa31/public_html/admin/queuelist.php on line 98
+[19-Apr-2017 19:06:37 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/dbf.php on line 3
+[19-Apr-2017 19:07:41 UTC] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/torresa31/public_html/dbf.php on line 2
+[19-Apr-2017 19:08:20 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/dbf.php on line 3
+[19-Apr-2017 19:10:26 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/dbf.php on line 3
+[19-Apr-2017 19:11:58 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/dbf.php on line 3
+[19-Apr-2017 19:12:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/admin/queuelist.php on line 97
+[19-Apr-2017 19:14:31 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/admin/queuelist.php on line 97
+[19-Apr-2017 19:14:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/admin/queuelist.php on line 97
+[19-Apr-2017 19:14:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, object given in /home/torresa31/public_html/admin/queuelist.php on line 97
+[19-Apr-2017 19:15:17 UTC] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/torresa31/public_html/admin/queuelist.php on line 97
+[19-Apr-2017 20:11:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[20-Apr-2017 00:30:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[20-Apr-2017 00:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[21-Apr-2017 15:00:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[22-Apr-2017 19:06:59 UTC] PHP Warning:  include(authCode.php): failed to open stream: No such file or directory in /home/torresa31/public_html/admin/configureconfirm.php on line 2
+[22-Apr-2017 19:06:59 UTC] PHP Warning:  include(): Failed opening 'authCode.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/torresa31/public_html/admin/configureconfirm.php on line 2
+[22-Apr-2017 19:06:59 UTC] PHP Fatal error:  Uncaught Error: Class 'AuthCode' not found in /home/torresa31/public_html/admin/configureconfirm.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/configureconfirm.php on line 6
+[22-Apr-2017 19:07:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/configureconfirm.php:11) in /home/torresa31/public_html/admin/configureconfirm.php on line 13
+[24-Apr-2017 17:25:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[25-Apr-2017 15:41:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[25-Apr-2017 18:37:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[25-Apr-2017 23:15:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/edit.php on line 57
+[25-Apr-2017 23:15:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/edit.php on line 57
+[25-Apr-2017 23:15:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/edit.php on line 57
+[25-Apr-2017 23:16:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/torresa31/public_html/admin/edit.php on line 57
+[26-Apr-2017 16:27:00 UTC] PHP Fatal error:  Can't use function return value in write context in /home/torresa31/public_html/admin/edit.php on line 10
+[26-Apr-2017 16:27:29 UTC] PHP Fatal error:  Can't use function return value in write context in /home/torresa31/public_html/admin/edit.php on line 10
+[26-Apr-2017 16:28:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/edit.php on line 6
+[26-Apr-2017 16:28:02 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/torresa31/public_html/admin/edit.php on line 15
+[26-Apr-2017 16:29:12 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/torresa31/public_html/admin/edit.php on line 15
+[26-Apr-2017 16:30:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/editconfirm.php on line 13
+[27-Apr-2017 00:08:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function replace() in /home/torresa31/public_html/admin/delete.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/torresa31/public_html/admin/delete.php on line 42
+[27-Apr-2017 00:09:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/delete.php on line 42
+[27-Apr-2017 04:51:03 UTC] PHP Warning:  Unterminated comment starting line 14 in /home/torresa31/public_html/admin/delete.php on line 14
+[27-Apr-2017 04:51:03 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/torresa31/public_html/admin/delete.php on line 64
+[27-Apr-2017 06:03:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/sendmessage.php on line 6
+[27-Apr-2017 07:15:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:51) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[27-Apr-2017 07:41:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[27-Apr-2017 11:01:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/troubleshootconfirm.php on line 40
+[27-Apr-2017 11:01:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminheader.php:1) in /home/torresa31/public_html/admin/troubleshootconfirm.php on line 40
+[27-Apr-2017 11:21:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[27-Apr-2017 11:21:50 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/torresa31/public_html/authCode.php on line 57
+[27-Apr-2017 11:25:33 UTC] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/torresa31/public_html/authCode.php on line 57
+[27-Apr-2017 11:35:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm.php:43) in /home/torresa31/public_html/admin/adminconfirm.php on line 55
+[27-Apr-2017 11:39:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:24) in /home/torresa31/public_html/admin/adminconfirm2.php on line 35
+[27-Apr-2017 11:40:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/configureAuthCode.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 11:40:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/employeeindex.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 11:41:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/configureAuthCode.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 11:45:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/employeeindex.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 11:52:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/messagelist.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 11:53:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/torresa31/public_html/admin/messagelist.php:1) in /home/torresa31/public_html/admin/adminheader.php on line 1
+[27-Apr-2017 12:14:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:24) in /home/torresa31/public_html/admin/adminconfirm2.php on line 35
+[27-Apr-2017 12:19:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:24) in /home/torresa31/public_html/admin/adminconfirm2.php on line 35
+[27-Apr-2017 12:49:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:24) in /home/torresa31/public_html/admin/adminconfirm2.php on line 35
+[27-Apr-2017 12:50:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:24) in /home/torresa31/public_html/admin/adminconfirm2.php on line 35
+[27-Apr-2017 13:00:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:26) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
+[27-Apr-2017 13:01:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:26) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
+[27-Apr-2017 13:08:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:26) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
+[27-Apr-2017 14:34:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:33) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
+[27-Apr-2017 14:35:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:26) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
+[27-Apr-2017 17:50:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/torresa31/public_html/admin/adminconfirm2.php:26) in /home/torresa31/public_html/admin/adminconfirm2.php on line 37
