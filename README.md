@@ -1,2 +1,3 @@
 # VectorSafe
-VectorSafe is a software engineering project that has three layers of Network security using our schools server called Cyan.
+VectorSafe is a software engineering project that has three layers of Network security using our schools server called Cyan. It has two views which are the employee view and admin view. The employee has to register in order to login with their proper username and password credentials. Then the second step is a captcha module which will identify that the user is not a robot and finally have a 7 random generator authentication code come up in your phone. The admin view has the same step process but has numerous of functions. The admin can delete, freeze, add emplooyees. The admin can also view the queue of the waiting employee list as well as seeing all the employees who are accepted by the admin. Admin can also modify the RSA and SSH keys. 
+https://cyan.csam.montclair.edu/~torresa31/employee/employeelogin.php
