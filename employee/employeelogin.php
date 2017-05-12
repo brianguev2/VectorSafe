@@ -1,6 +1,6 @@
 <?php
 include '../dbh.php';
-/*
+
 global $db;
 
 if(!isset($_COOKIE[$cookie_name])) {
@@ -18,7 +18,7 @@ if(!isset($_COOKIE[$cookie_name])) {
     setcookie('key', $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 }
 
-*/
+
 include 'employeeheader.php'; ?>
 <script>
     
